@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/HibernateMapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.model.vo">
+    <class name="User" table="user" lazy="false">
+        <id name="useraccount" type="java.lang.String">
+            <column name="useraccount" length="15"></column>
+        </id>
+        <property name="password" type="java.lang.String">
+            <column name="password" length="15"></column>
+        </property>
+        <property name="username" type="java.lang.String">
+            <column name="username" length="15"></column>
+        </property>
+        <property name="permission">
+            <column name="permission" length="15"></column>
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.control.permission.UserPermission</param>
+                <param name="type">12</param><!--12为字符串 默认为4是数字-->
+            </type>
+        </property>
+    </class>
+</hibernate-mapping>

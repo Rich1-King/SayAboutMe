@@ -1,0 +1,201 @@
+html,body{
+        margin: 0px;
+        padding: 0px;
+}
+div{
+        margin: 0px;
+        padding: 0px;
+}
+#header{
+        width: 100%;
+        height: 35px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        z-index: 1000;
+}
+#content{
+        width: 100%;
+        height: auto;
+        min-height: 586px;
+        margin-top: 35px;
+
+}
+#footer{
+        width: 100%;
+        height: 50px;
+        background: black;
+        opacity: 0.3;
+}
+
+#myselfTip{
+        width: 300px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-family: UnPilgi;
+        font-size: 15pt;
+        float: left;
+        color: darkorange;
+        text-shadow: 0 0 1px yellow;
+}
+
+#select{
+        width: 300px;
+        height: 35px;
+        float: right;
+        margin: 0px;
+        padding: 0px;
+}
+.selectUl{
+        width: 300px;
+        height: 35px;
+        white-space: nowrap;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+
+.selectUl li{
+        width: 40px;
+        height: 35px;
+        display: inline;
+        text-align: center;
+        line-height: 35px;
+        margin: 0px;
+        padding: 0px;
+
+}
+
+#login,#resign{
+        width: 60px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        color: white;
+        float: right;
+        margin-right: 10px;
+        padding: 0px;
+        font-size: 12pt;
+        -moz-user-select: none;
+        cursor: pointer;
+        background: gray;
+        border-radius: 100%;
+        -o-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -webkit-border-radius: 100%;
+}
+#topTitleDiv{
+        width: 100%;
+        height: 30px;
+        padding: 0px;
+        margin: 0px;
+        /*background-image: url(/image/cao.jpg);*/
+        background-color: #F8F8F8;
+        position: relative;
+        z-index: 2;
+}
+
+#courseDiv{
+        margin-left: 230px;
+
+}
+.selectedDiv{
+        width: 100px;
+        height: 30px;
+        padding: 0px;
+        background: #E9E9E9;
+        text-align: center;
+        line-height:30px;
+        margin-top: 0px;
+        margin-left: 5px;
+        float: left;
+        color: gray;
+        -moz-user-select: none;
+        cursor: default;
+}
+
+.selectedDiv:hover{
+        color: black;
+}
+
+#courseUl{
+
+}
+#aboutMe{
+        height: 30px;
+}
+.selectedUl{
+        width: 100px;
+        height: 60px;
+        padding: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        list-style: none;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+}
+.addLine{
+        border-bottom:1px solid white;
+}
+#addCourse{
+}
+#displayCourse{
+}
+
+
+#left{
+        width: 12%;
+        height: auto;
+        min-height: 566px;
+        background: white;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+}
+#center{
+        width: 76%;
+        height: auto;
+        min-height: 566px;
+        background: white;
+        box-shadow:0px 1px 5px black;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        z-index: 1;
+}
+#right{
+        width: 12%;
+        height: auto;
+        min-height: 566px;
+        background: white;
+        float: right;
+        margin: 0px;
+        padding: 0px;
+
+}
+
+#mainContent{
+        width: 100%;
+        height: auto;
+        min-height: 566px;
+}
+
+#frame{
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        min-height: 566px;
+        width: 100%;
+        border-width: 0px;
+        z-index: 10;
+}
+
+

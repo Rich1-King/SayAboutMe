@@ -1,0 +1,133 @@
+html,body{
+        margin: 0px;
+        padding: 0px;
+}
+div{
+        margin: 0px;
+        padding: 0px;
+}
+body{
+
+}
+#header{
+        width: 100%;
+        height: 35px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-image:url("/image/main5.jpg");
+        margin: 0px;
+        padding: 0px;
+        z-index: 1000;
+}
+
+#myselfTip{
+        width: 300px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-family: UnPilgi;
+        font-size: 15pt;
+        float: left;
+        color: darkorange;
+        text-shadow: 0 0 1px yellow;
+        cursor: default;
+        -moz-user-select: none;
+}
+
+#select{
+        width: 300px;
+        height: 35px;
+        float: right;
+        margin: 0px;
+        padding: 0px;
+}
+.selectUl{
+        width: 300px;
+        height: 35px;
+        white-space: nowrap;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+
+.selectUl li{
+        width: 40px;
+        height: 35px;
+        display: inline;
+        text-align: center;
+        line-height: 35px;
+        margin: 0px;
+        padding: 0px;
+}
+
+#login,#resign{
+        width: 50px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        color: black;
+        float: right;
+        margin-right: 5px;
+        padding: 0px;
+        font-size: 12pt;
+        -moz-user-select: none;
+        cursor: pointer;
+}
+
+#content{
+        width: 100%;
+        height: auto;
+        min-height: 638px;
+        margin-top: 35px;
+        position: relative;
+}
+
+#mainContent{
+        width: 5472px;
+        height: auto;
+        min-height: 638px;
+       /* background-image: url("/image/main1.jpg");*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        over-flow: hidden;
+}
+#switer{
+        width: 150px;
+        height: auto;
+        min-height: 30px;
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        text-align: center;
+        line-height: 30px;
+        z-index: 6;
+}
+.switer_image{
+        width: 14px;
+        height: 14px;
+        border-radius: 90px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        float: left;
+        margin-left: 20px;
+        margin-top: 8px;
+        z-index: 10;
+}
+
+#image1Div{
+        background: gray;
+}
+
+.img{
+        width: 1368px;
+        height: 638px;
+        float:left;
+        border: none;
+        position:relative;
+        display: inline;
+        top: 0px;
+        right: 0px;
+}

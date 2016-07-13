@@ -1,0 +1,62 @@
+html, body{
+        margin: 0px;
+}
+body{
+        width: 100%;
+        height: auto;
+        min-height: 656px;
+}
+#title{
+        width: 100%;
+        height: 70px;
+        margin-top: 10px;
+        padding: 0px;
+        color: green;
+        text-align: center;
+        line-height: 70px;
+        font-size: 15pt;
+        font-weight: bold;
+}
+
+#mainSelectCourse{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+        min-height: 486px;
+}
+
+#addCourseUl{
+        margin-left: 20%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        padding: 0px;
+        width: 60%;
+        height: auto;
+        min-height: 466px;
+        list-style: none;
+}
+
+.li_class{
+        height: 40px;
+        margin-bottom: 30px;
+        vertical-align: middle;
+}
+
+.li_input_text{
+        width: 300px;
+        height: 35px;
+}
+
+#submitCourse{
+        margin-left: 200px;
+}
+
+.spanTip{
+        margin-left: 30px;
+        color: gray;
+}
+#spanClassTime{
+        margin-left: 180px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/HibernateMapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.model.vo">
+    <class name="Course" table="course">
+        <id name="courseId" type="java.lang.Integer">
+            <generator class="native"></generator>
+        </id>
+        <property name="courseName" type="java.lang.String">
+            <column name="courseName" length="15"></column>
+        </property>
+        <property name="courseTeacher" type="java.lang.String">
+            <column name="courseTeacher" length="15"></column>
+        </property>
+        <property name="courseTime" type="java.lang.String">
+            <column name="courseTime" length="20"></column>
+        </property>
+        <property name="courseRoom" type="java.lang.String">
+            <column name="courseRoom" length="15"></column>
+        </property>
+        <property name="useraccount" type="java.lang.String">
+            <column name="useraccount" length="15"></column>
+        </property>
+        <property name="courseDate" type="java.lang.Integer">
+            <column name="courseDate" length="15"></column>
+        </property>
+    </class>
+</hibernate-mapping>
